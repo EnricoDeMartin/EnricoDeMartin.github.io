@@ -1,6 +1,93 @@
 <!DOCTYPE html>
 <html>
+<style>
+	#hovertext{
+		color:blue;
+	}
+	#sect {
+		height:50vh;
+		witdh:100vw;
+	}
+	#sideimage {
+		height:50vh;
+	}
+	#asideSect {
+		float:left;
+		padding-right: 10px;
+		height:50vh;
+	}
+	#head{
+		height:10vh;
+		padding: 2vh;
+		background-color: lightgrey;
+		margin:auto;
+		height:80%;
+	}
+	#asidelogo{
+		height:10vh;
+		float: right;
+		padding-right:4vw;
+		padding-left:4vw;
+	}
+	#logo{
+		height:10vh;
+		margin:auto;
+	}
+	#blank{
+		height: 70vh;
+	}
+</style>
+<script src="scripts/script.js"></script>
+
 	<head>
-		<title> Home </title>
+		<title> BMW Oracle </title>
+		<h1>BMW Oracle Racing</h1>
 	</head>
+	<body>
+		
+		<div id="head">
+			<aside id="asidelogo">
+				<IMG src=https://s.hdnux.com/photos/12/13/42/2668680/7/ratio3x2_1920.jpg id="logo"></IMG>
+			</aside>
+			<p>
+				Alinghi è stato il il team di America's Cup elvetico. Vincitore delle edizioni 31esima e 32esima della competizione, è quindi stato il detentore del titolo dal 2003 fino alla sconfitta contro gli statunitensi nel 2010, per poi fare ritorno nel 2021, in partnership con RedBull, in vista della 37esima edizione della coppa.
+			</p>
+		</div>
+		<div id="sect">
+			<aside id="asideSect">
+			<IMG src=https://upload.wikimedia.org/wikipedia/commons/3/3f/Alinghi_5_-_July_09.jpg id="sideimage"></IMG>
+			</aside>
+			<h1>Alinghi V</h1>
+			<p>
+				Alinghi V è stato il catamarano difensore della America's Cup nel 2010. È lungo 110 piedi fuori tutto (90 al galleggiamento) e largo altri 90. L'albero di 62 metri, maggiorato rispetto all'originale, gli permette di armare ben 930 metri quadrati di vela salendo il vento, e scendendolo con l'aiuto del gennaker questo numero raggiunge la cifra di 1670 metri quadrati.
+				Questo armo impressionante gli permette di raggiungere comodamente velocità attorno ai 20 nodi con solamente 7-8 nodi di vento, e di risalire il vento a quasi il doppio della velocità dello stesso.
+			</p>
+		</div>
+		<div style="margin:auto;">
+			<h2>L'equipaggio</h2>
+			<aside id="asidelogo">
+				<IMG src="images/blank.avif" id="blank"></IMG>
+			</aside>
+			<table border="1" cellpadding="6" cellspacing="0">
+			    <tr>
+			      <th>Ruolo</th>
+			      <th>Nome</th>
+			    </tr>
+			    <tr><td>Prodiere</td><td>Brad Webb 🇳🇿</td></tr>
+			    <tr><td>Pitman (addetto alle drizze)</td><td>Simone de Mari 🇮🇹</td></tr>
+			    <tr><td>Trimmer fiocco</td><td>Ross Halcrow 🇳🇿</td></tr>
+			    <tr><td>Trimmer vela rigida</td><td>Dirk de Ridder 🇳🇱</td></tr>
+			    <tr><td>Assistente vela rigida</td><td>Joe Newton 🇳🇿</td></tr>
+			    <tr><td>Tattico</td><td>John Kostecki 🇺🇸</td></tr>
+			    <tr><td>Skipper / Timoniere</td><td><a id="hovertext" onmouseover="spithill()" onmouseleave="blank()">James Spithill 🇳🇿</a></td></tr>
+			    <tr><td>Navigatore</td><td>Matteo Plazzi 🇮🇹</td></tr>
+			    <tr><td>Pit posteriore</td><td>Thierry Fouchier 🇫🇷</td></tr>
+			    <tr><td>Albero</td><td>Matthew Mason 🇳🇿</td></tr>
+			    <tr><td>Afterguard (staff di comando)</td><td><a id="hovertext" onmouseover="ellison()" onmouseleave="blank()">Larry Ellison 🇺🇸</a></td></tr>
+			</table>
+
+		</div>
+	</div>
+
+	</body>
 </html>
