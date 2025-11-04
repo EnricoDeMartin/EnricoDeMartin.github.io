@@ -1,3 +1,6 @@
+function sample(){
+	document.getElementById("blank").src = "images/sample.avif";
+}
 function spithill(){
 	document.getElementById("blank").src = "images/spithill.jpg";
 }

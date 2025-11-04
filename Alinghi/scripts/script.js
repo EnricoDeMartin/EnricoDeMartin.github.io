@@ -1,3 +1,6 @@
+function sample(){
+	document.getElementById("blank").src = "images/sample.avif";
+}
 function bertarelli(){
 	document.getElementById("blank").src = "images/bertarelli.jpg";
 }
